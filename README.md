@@ -1,2 +1,14 @@
-# Steam_Backlog_Checker
-Python program that displays a list of games via GUIs of an entered Steam Id that have less than 2 hours of playtime. Additonally, can see the backlogs of an inputted id's friends.
+# Steam Backlog Checker
+### By: Sheikh Arian
+
+Shows a list of games with less than 2 hours of playtime of an entered Steam ID.
+Also can look at the backlog list of games of friends of entered Steam ID.
+
+_**NOTE**: Requires Steam API Key to function, program needs a valid API key to work._
+
+## Libraries Used
+- **tkinter:** Python GUI Library to create windows, buttons, and popups
+- **PIL:** For image resizing and presentation.
+- **requests:** Sends HTTP requests to Steam Web API for data retrieval.
+- **io:** converts image byte streams into image objects.
+- **threading:** runs API calls in background to prevent GPU-freezing.
